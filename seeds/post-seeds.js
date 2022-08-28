@@ -2,78 +2,78 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
-    post_text: 'buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
+    title: 'Donec ',
+    post_text: 'Donec posuere metus vitae ipsum',
     user_id: 10
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-    post_text: 'nasa.gov/donec.json',
+    post_text: 'Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.',
     user_id: 8
   },
   {
     title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    post_text: '//europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    post_text: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
     user_id: 1
   },
   {
     title: 'Nunc purus.',
-    post_text: 'desdev.cn/enim/blandit/mi.jpg',
+    post_text: 'desdevpg fdsfdsfds fdsfdsfds fdsfdsfdsfds',
     user_id: 4
   },
   {
     title: 'Pellentesque eget nunc.',
-    post_text: 'google.ca/nam/nulla/integer.aspx',
+    post_text: 'Pellentesque eget nunc.Pellentesque eget nunc.Pellentesque eget nunc.',
     user_id: 7
   },
   {
     title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    post_text: 'stanford.edu/consequat.png',
+    post_text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
     user_id: 4
   },
   {
     title: 'In hac habitasse platea dictumst.',
-    post_text: '//edublogs.org/non/ligula/pellentesque.js',
+    post_text: 'In hac habitasse platea dictumstIn hac habitasse platea dictumstIn hac habitasse platea dictumstIn hac habitasse platea dictumst',
     user_id: 1
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-    post_text: 'ucla.edu/consequat/nulla.html',
+    post_text: 'Morbi non quam nec dui luctus rutrumMorbi non quam nec dui luctus rutrumMorbi non quam nec dui luctus rutrum',
     user_id: 1
   },
   {
     title: 'Duis ac nibh.',
-    post_text: 'theguardian.com/dui/vel/nisl/duis/ac/nibh.aspx',
+    post_text: 'Duis ac nibhDuis ac nibhDuis ac nibhDuis ac nibh',
     user_id: 9
   },
   {
     title: 'Curabitur at ipsum ac tellus semper interdum.',
-    post_text: 'reverbnation.com/ligula/sit.jpg',
+    post_text: 'rCurabitur at ipsum ac tellus semper interdumCurabitur at ipsum ac tellus semper interdumCurabitur at ipsum ac tellus semper interdumCurabitur at ipsum ac tellus semper interdum',
     user_id: 5
   },
   {
     title: 'In hac habitasse platea dictumst.',
-    post_text: 'china.com.cn/lectus/vestibulum.json',
+    post_text: 'In hac habitasse platea dictumstIn hac habitasse platea dictumstIn hac habitasse platea dictumstIn hac habitasse platea dictumst',
     user_id: 3
   },
   {
     title: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    post_text: 'networksolutions.com/nam/ultrices/libero/non/mattis/pulvinar.json',
+    post_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
     user_id: 10
   },
   {
     title: 'Donec dapibus.',
-    post_text: 'instagram.com/ac/neque/duis/bibendum/morbi/non.xml',
+    post_text: 'instagraCras mi pede, malesuada in, imperdiet et, commodo vulputate, justxml',
     user_id: 8
   },
   {
     title: 'Nulla tellus.',
-    post_text: 'lycos.com/natoque/penatibus/et.html',
+    post_text: 'lycosinstagram.cCras mi pede, malesuada in, imperdiet et, commodo vulputate, justml',
     user_id: 3
   },
   {
     title: 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    post_text: 'gmpg.org/lorem.jpg',
+    post_text: 'gmpginstagram.Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justCras mi pede, malesuada in, imperdiet et, commodo vulputate, justCras mi pede, malesuada in, imperdiet et, commodo vulputate, justl',
     user_id: 3
   },
   {

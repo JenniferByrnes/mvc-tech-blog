@@ -20,17 +20,19 @@ async function newFormHandler(event) {
   } else {
     alert(response.statusText);
   }
-  document.getElementById('display-posts').style.display='block';
-  document.getElementById('create-post').style.display='none';
+  document.getElementById('display-posts').classList.toggle("hide");
+  document.getElementById('create-post').classList.toggle("hide");
 }
 
 function toggleHide(event) {
   event.preventDefault();
   console.log("here i am ************************")
-  document.getElementById('display-posts').style.display='none';
-  document.getElementById('create-post').style.display='block';
+  //document.getElementById('display-posts').style.display='none';
+  //document.getElementById('create-post').style.display='block';
+  document.getElementById('display-posts').classList.toggle("hide");
+  document.getElementById('create-post').classList.toggle("hide");
 }
 
 document.querySelector('.new-post-form').addEventListener('submit', newFormHandler);
 
-document.querySelector('.new-post-form').addEventListener('toggle', toggleHide);
+document.querySelector('#create-btn').addEventListener('click', toggleHide);
