@@ -1,4 +1,4 @@
-<section>
+<section id="create-post">
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
@@ -10,13 +10,14 @@
       <label for="post-text">Blog Text</label>
       <textarea name="post-text"></textarea>
     </div>
-    <button type="submit" class="btn">Create</button>
+    <button type="add" class="btn">Add</button>
   </form>
 </section>
 
 {{#if posts.length}}
-<section>
+<section id="display-posts">
   <h2>Your Posts</h2>
+  <button type="toggle" class="btn">Create New</button>
   <ol>
     {{#each posts as |post|}}
     <li>

@@ -1,13 +1,21 @@
 * {
   box-sizing: border-box;
+  --primary: #44e9ff;
+  --secondary: #497980;
+  --tertiary: rgb(192, 246, 253);
+  --grey: #333;
 }
 
 body, html {
   height: 100%;
+  background: #ededed;
+  color: var(--grey);
   padding: 0;
   margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   font-family: sans-serif;
-  color: #333;
 }
 
 a {
@@ -18,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #3486eb;
+  color: #225ca3;
 }
 
 button {
@@ -74,12 +82,19 @@ form label {
   flex-direction: column;
 }
 
+p {
+  display: flex;
+  padding: .5%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 header {
-  border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  background-color: #3486eb;
 }
 
 header h1 {
@@ -120,6 +135,7 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  border: 1px solid #333;
 }
 
 .post .title span {
@@ -131,15 +147,6 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
 }
 
 .comment-form {
