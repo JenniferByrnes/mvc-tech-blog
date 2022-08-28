@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS newsfeed1_db;
+
+CREATE DATABASE newsfeed1_db;
