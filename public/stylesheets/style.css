@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  --primary: #44e9ff;
+  --primary: #225ca3;
   --secondary: #497980;
   --tertiary: rgb(192, 246, 253);
   --grey: #333;
@@ -95,6 +95,17 @@ header h1 {
   font-size: 1em;
 }
 
+header h2 {
+  background-color: var(--primary);
+  color: white;
+  border: 1px solid #333;
+  border-radius: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-inline: 2%;
+  margin-left: 2%
+}
+
 main {
   flex: 1;
   padding: 2% 4%;
@@ -111,11 +122,6 @@ main {
   font-weight: bold;
   transition: color .1s;
   margin-left: 16px;
-}
-
-.btn-no-style:hover {
-  background: none;
-  color: #3486eb;
 }
 
 .delete-post-btn {
