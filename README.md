@@ -4,7 +4,10 @@ Class project to build a tech blog.  It requires login to post and comment.
 
 ## Description:
 
-Allows a logged in techies to publish blog posts and to comment on others' posts.  
+Allows a logged in techies to publish blog posts and to comment on others' posts. 
+
+Link to deployed app:
+https://mvc-tech-blog-jkb.herokuapp.com/
 
 ## Table of Contents
 
