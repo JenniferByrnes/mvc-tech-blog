@@ -26,9 +26,7 @@ async function newFormHandler(event) {
 
 function toggleHide(event) {
   event.preventDefault();
-  console.log("here i am ************************")
-  //document.getElementById('display-posts').style.display='none';
-  //document.getElementById('create-post').style.display='block';
+ 
   document.getElementById('display-posts').classList.toggle("hide");
   document.getElementById('create-post').classList.toggle("hide");
 }

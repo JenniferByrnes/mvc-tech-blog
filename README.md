@@ -4,7 +4,7 @@ Class project to build a tech blog.  It requires login to post and comment.
 
 ## Description:
 
-Allows a logged in techies to publish blog posts and to comment on other's posts.  
+Allows a logged in techies to publish blog posts and to comment on others' posts.  
 
 ## Table of Contents
 
@@ -22,8 +22,9 @@ Allows a logged in techies to publish blog posts and to comment on other's posts
 Clone this repository and run this line: npm init --y
 
   Run source db/schema.sql to drop and add the database.
-  Run node seeds/index to seed the database with sample data.
+  Run node seeds/index to seed the database with sample data if desired.
   Run node server to start the server. Database tables are created if non-existant.
+  Run node seeds/index to seed the database with sample data if desired.
 
 ## Usage
 
@@ -48,9 +49,5 @@ Fork the repository and do a pull request for your code to be reviewed.
 GitHub profile: https://github.com/jenniferbyrnes
 
 Please address any questions to me at jennifer.byrnes@outlook.com
-
-## Video Walkthrough
-
-https://drive.google.com/file/d/1KJUslAxVDGSEKeK1s1ELTpfQgHUhRUvi/view
   
   
