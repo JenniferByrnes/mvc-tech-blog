@@ -1,4 +1,4 @@
-# mvc-tech-blog
+# whats-cooking
 
 Class project to build a tech blog.  It requires login to post and comment.
 
@@ -7,7 +7,7 @@ Class project to build a tech blog.  It requires login to post and comment.
 Allows a logged in techies to publish blog posts and to comment on others' posts. 
 
 Link to deployed app:
-https://mvc-tech-blog-jkb.herokuapp.com/
+https://******.herokuapp.com/
 
 ## Table of Contents
 
