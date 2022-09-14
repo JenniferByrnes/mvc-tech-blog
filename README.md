@@ -1,4 +1,4 @@
-# mvc-tech-blog
+# whats-cooking
 
 Class project to build a tech blog.  It requires login to post and comment.
 
@@ -7,7 +7,7 @@ Class project to build a tech blog.  It requires login to post and comment.
 Allows a logged in techies to publish blog posts and to comment on others' posts. 
 
 Link to deployed app:
-https://mvc-tech-blog-jkb.herokuapp.com/
+https://******.herokuapp.com/
 
 ## Table of Contents
 
@@ -16,8 +16,8 @@ https://mvc-tech-blog-jkb.herokuapp.com/
 - [Credits](#credits)
 - [License](#license)
 - [How to Contribute](#How-to-Contribute)
-- [Tests](#Tests)
 - [Questions?](#Questions)
+- [ScreenShot](#ScreenShot)
 - [Video Walkthrough](#Video-Walkthrough)
 
 ## Installation
@@ -43,14 +43,11 @@ None
 
 Fork the repository and do a pull request for your code to be reviewed.
 
-## Tests
-
-
-
 ## Questions?
 
 GitHub profile: https://github.com/jenniferbyrnes
 
 Please address any questions to me at jennifer.byrnes@outlook.com
-  
-  
+
+## ScreenShot
+<img src="./ScreenShot.png">

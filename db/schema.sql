@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS mvc_tech_blog_db;
+DROP DATABASE IF EXISTS whats-cooking_db;
 
-CREATE DATABASE mvc_tech_blog_db;
+CREATE DATABASE whats-cooking_db;
