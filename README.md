@@ -16,8 +16,8 @@ https://******.herokuapp.com/
 - [Credits](#credits)
 - [License](#license)
 - [How to Contribute](#How-to-Contribute)
-- [Tests](#Tests)
 - [Questions?](#Questions)
+- [ScreenShot](#ScreenShot)
 - [Video Walkthrough](#Video-Walkthrough)
 
 ## Installation
@@ -43,14 +43,11 @@ None
 
 Fork the repository and do a pull request for your code to be reviewed.
 
-## Tests
-
-
-
 ## Questions?
 
 GitHub profile: https://github.com/jenniferbyrnes
 
 Please address any questions to me at jennifer.byrnes@outlook.com
-  
-  
+
+## ScreenShot
+<img src="./ScreenShot.png">
