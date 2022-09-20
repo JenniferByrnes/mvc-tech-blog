@@ -7,7 +7,7 @@ Class project to build a tech blog.  It requires login to post and comment.
 Allows a logged in techies to publish blog posts and to comment on others' posts. 
 
 Link to deployed app:
-https://******.herokuapp.com/
+https://mvc-tech-blog-jkb.herokuapp.com/
 
 ## Table of Contents
 
@@ -28,12 +28,14 @@ Clone this repository and run this line: npm init --y
   Run node seeds/index to seed the database with sample data if desired.
   Run node server to start the server. Database tables are created if non-existant.
   Run node seeds/index to seed the database with sample data if desired.
+  
+  To create the database db/schema.sql 
+  To seed the database: node seeds/index 
+  To start the program: node server.js
 
 ## Usage
 
- To create the database db/schema.sql 
- To seed the database: node seeds/index 
- To start the program: node server.js
+When you start the application, you see a list of blog items and when you click on one, you can see any related comments.  Logging in will give you a list of your precious blog posts and gives you the ability to make your own new ones.  As a logged in user, you can edit your own posts and comment on existing ones.
 
 ## License
 
